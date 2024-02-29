@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ -f /home/alaagbr/.bashrc ]; then
+    cd /home/alaagbr/
+    echo "export HELLO=HOSTNAME">>.bashrc
+    echo "LOCAL=whoami">>.bashrc
+    gnome-terminal
+else
+    echo 'File does not exist.'
+fi
+
