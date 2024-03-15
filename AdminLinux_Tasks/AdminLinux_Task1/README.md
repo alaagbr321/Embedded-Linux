@@ -1,7 +1,15 @@
-This is a Shell Script created to 
+# Section 1
 
-1. Create a directory called "myDirectory" in your home folder.
-2. Inside "myDirectory," create another directory named "secondDirectory."
-3. Within "secondDirectory," create a file named "myNotePaper."
-4. Copy "myNotePaper" from "secondDirectory" to "myDirectory."
-5. Rename the copied file in "myDirectory" to "myOldNotePaper."
+## Q1 : List three Linux Distributions
+* Ubuntu
+* Debian 
+* RedHat
+
+## Q2 : From the slides what is the man command used for?
+`man` command in Linux is used to display the user manual of any command that we can run on the terminal
+
+## Q3 : What is the difference between rm and rmdir using man command?
+* `rm` command is used to remove both files and non-empty directories
+* `rmdir` command is used only to remove empty directories
+
+## Q4 : Create the following hierarchy under your home directory
