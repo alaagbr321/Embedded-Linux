@@ -13,3 +13,4 @@
 * `rmdir` command is used only to remove empty directories
 
 ## Q4 : Create the following hierarchy under your home directory
+![hierarchy] (../../images/hierarchy.png)
