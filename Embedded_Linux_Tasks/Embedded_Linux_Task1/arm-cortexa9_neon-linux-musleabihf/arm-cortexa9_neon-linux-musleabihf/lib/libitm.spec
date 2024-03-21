@@ -1,1 +1,0 @@
-../../arm-cortexa9_neon-linux-musleabihf/sysroot/lib/libitm.spec
