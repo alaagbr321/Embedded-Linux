@@ -1,0 +1,12 @@
+[Unit]
+Description=this service tells the time
+
+
+
+[Service]
+ExecStart=/home/alaagbr/Desktop/GitHub/Embedded-Linux/Tasks/Embedded_Linux_Tasks/Embedded_Linux_Task3/TellTime.sh
+
+[Install]
+WantedBy=graphical.target
+
+
