@@ -18,6 +18,7 @@ git clone -b dunfell git://git.yoctoproject.org/poky.git --depth=1
 ```
 ## 3. Download the meta layer for the Raspberrypi
 ```
+cd poky/
 git clone  -b dunfell https://github.com/agherzan/meta-raspberrypi.git --depth=1
 ```
 
