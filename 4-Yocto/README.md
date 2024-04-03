@@ -7,10 +7,10 @@ The Yocto Project is a Linux Foundation collaborative open source project whose 
 
 ## 1. Install missing dependencies
 ```
-sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib \
-build-essential chrpath socat cpio python3 python3-pip python3-pexpect \
-xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev \
-pylint3 xterm
+sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib
+sudo apt-get install build-essential chrpath socat cpio python3 python3-pip python3-pexpect 
+sudo apt-get install xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev 
+sudo apt-get install pylint3 xterm
 ```
 ## 2. Download Yocto 
 ```
