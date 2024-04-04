@@ -55,6 +55,28 @@ cd sd_emulation/
 * New--> 200M -->type = FAT16(6)  --> bootable --> write
 * New-->823M  -->type = Linux(83) -->write
 * Quit
+## 3.1- To emulate the sd.img file as a sd card we need to attach it to loop driver to be as a block storage
+```
+# attach the sd.img to be treated as block storage
+
+sudo losetup -f --show --partscan sd.img
+
+# Assign the Block device as global variable to be treated as MACRO
+
+export DISK=/dev/loop<x>
+```
+
+
+## 3.2- Format Partition Table
+```
+# Formating the first partition as FAT
+
+sudo mkfs.vfat -F 16 -n boot ${DISK}p1
+
+# format the created partition by ext4
+
+sudo mkfs.ext4 -L rootfs ${DISK}p2
+```
 
 ## 4- Install qemu
 `sudo apt install qemu-system-arm`
