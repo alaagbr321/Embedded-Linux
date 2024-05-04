@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/local/include",
+                "/usr/src/linux-headers-6.5.0-28-generic/include/",
+                "/usr/src/linux-headers-6.5.0-28-generic/arch/arm/include/",
+                "/usr/lib/gcc/x86_64-linux-gnu/11/include/",
+                "/usr/lib/gcc/x86_64-linux-gnu/12/include/",
+                "/usr/src/linux-headers-6.5.0-28-generic/arch/x86/include/generated/"
+
+                
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}

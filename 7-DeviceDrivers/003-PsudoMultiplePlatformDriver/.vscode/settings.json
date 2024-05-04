@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "device.h": "c",
+        "devicesetup.h": "c",
+        "permission.h": "c",
+        "platform_device.h": "c",
+        "multipleplatformdriver.h": "c"
+    }
+}
